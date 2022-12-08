@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="row">
+   <div class="col-2 bg-1"><h1>1</h1></div>
+   <div class="col-2 bg-2"><h1>2</h1></div>
+   <div class="col-2 bg-3"><h1>3</h1></div>
+   <div class="col-2 bg-4"><h1>4</h1></div>
+   <div class="col-2 bg-5"><h1>5</h1></div>
+   <div class="col-2 bg-6"><h1>6</h1></div>
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<button type="button" class="btn btn-success">Success</button>
+
+  <div class="row">
+   <div class="col-4 accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="data:image/jpeg;base64,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
+        " class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://st2.depositphotos.com/1000423/12102/i/950/depositphotos_121025384-stock-photo-girls-boxing-in-ring-mixed.jpg
+        " class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.newyorker.com/photos/590951271c7a8e33fb38a1e8/master/w_2560%2Cc_limit/womens-boxing.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+     <p class="text-warning">thaanu</p>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+</body>
+</html>
